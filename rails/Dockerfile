@@ -2,9 +2,9 @@ FROM ruby:2.7.1-alpine3.11
 
 ENV BUNDLER_VERSION=2.1.4
 
-WORKDIR /rails_api
+WORKDIR /usr/src/app
 
-COPY Gemfile /rails_api/
+COPY Gemfile /usr/src/app
 
 RUN apk update && \
     apk add --no-cache \
