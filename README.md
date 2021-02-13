@@ -1,2 +1,3 @@
 # command_container
-dockerfiles of containers for executing commands.
+Dockerfiles of containers for executing commands.
+コマンド実行用のコンテナを作るDockerfileです。
