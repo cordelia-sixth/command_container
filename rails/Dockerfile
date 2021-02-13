@@ -10,12 +10,12 @@ RUN apk update && \
     apk add --no-cache \
     linux-headers \
     libxml2-dev \
-		curl-dev \
-		make \
-		gcc \
-		libc-dev \
-		g++ \
-		sqlite-dev \
+    curl-dev \
+    make \
+    gcc \
+    libc-dev \
+    g++ \
+    sqlite-dev \
     tzdata && \
     gem install bundler && \
     bundle install
